@@ -1170,7 +1170,7 @@ Transform:
   m_GameObject: {fileID: 1452840895}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.042, y: -0.084, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1189,7 +1189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7341416780708f48bc1ef69a7ea654d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  wheelPosition: {fileID: 0}
+  wheelPosition: {fileID: 925655388}
 --- !u!1 &1894742664
 GameObject:
   m_ObjectHideFlags: 0

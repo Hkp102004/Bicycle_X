@@ -14,4 +14,14 @@ public class wheel_position_tracker : MonoBehaviour
     {
         
     }
+
+    void LateUpdate()
+    {
+        if(wheelPosition == null)
+        {
+            Debug.LogError("Wheel position is missing from position tracker script.");
+        }
+
+        transform.position = wheelPosition.position;
+    }
 }
