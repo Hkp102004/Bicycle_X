@@ -27,5 +27,7 @@ public class suspensionBehaviour : MonoBehaviour
         Vector3 direction = (bottomAnchor.position - topAnchor.position).normalized;
         float distance = Vector3.Distance(topAnchor.position, bottomAnchor.position);
         float Length = Mathf.Clamp(distance, minLength, maxLength);
+
+        transform.position = topAnchor.position + direction * Length;
     }
 }
