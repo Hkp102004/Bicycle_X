@@ -14,4 +14,13 @@ public class swingarmRotate : MonoBehaviour
     {
         
     }
+
+    void LateUpdate()
+    {
+        if(pivot == null || wheelfollow == null)
+        {
+            Debug.LogError("Either pivot or wheelfollow is not assigned in swingarmRotate script");
+            return;
+        }
+    }
 }
