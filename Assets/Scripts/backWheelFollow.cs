@@ -21,5 +21,7 @@ public class backWheelFollow : MonoBehaviour
             Debug.LogError("Back wheel is not found in backWheelFolow script");
             return;
         }
+
+        transform.position = backwheel.position;
     }
 }
