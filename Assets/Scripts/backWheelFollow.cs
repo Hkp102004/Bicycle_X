@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class backWheelFollow : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public Transform backwheel; //this will keep track of the back wheel position
     void Start()
     {
         
@@ -12,5 +12,14 @@ public class backWheelFollow : MonoBehaviour
     void Update()
     {
         
+    }
+
+    void LateUpdate()
+    {
+        if(backwheel == null)
+        {
+            Debug.LogError("Back wheel is not found in backWheelFolow script");
+            return;
+        }
     }
 }
