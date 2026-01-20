@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class swingarmRotate : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public Transform pivot; //swingarm pivot point
+    public Transform wheelfollow; //rear wheel follow point
     void Start()
     {
         
