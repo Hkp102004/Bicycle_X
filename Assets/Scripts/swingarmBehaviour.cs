@@ -17,11 +17,6 @@ public class swingarmBehaviour : MonoBehaviour
 
     void LateUpdate()
     {
-        if(anchor== null)
-        {
-            Debug.LogError("Anchor is missing in swingarmBehaviour script");
-            return;
-        }
         transform.position = anchor.position;
     }
 }
